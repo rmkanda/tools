@@ -49,9 +49,10 @@ Curated list of security tools
 ## Mutliple Languages
 
 - [Synk](https://snyk.io/) 💰 - Automatically find, prioritize and fix vulnerabilities in your open source dependencies throughout your development process
-- [Aqua](https://www.aquasec.com/) 💰 -
-- [Deeptracy](https://github.com/BBVA/deeptracy) - The Security Dependency Orchestrator Service
+- [Aqua](https://www.aquasec.com/products/container-vulnerability-scanning/) 💰 - Aqua’s CyberCenter feed is updated daily, providing extensive OS and programming language coverage, application dependency detection, and reduction in false positives and false negatives based on proprietary algorithms reconciling multiple sources (NVD, vendor advisories, and Aqua research)
 - [Hawkeye](https://github.com/hawkeyesec/scanner-cli) - The Hawkeye scanner-cli is a project security, vulnerability and general risk highlighting tool. It is meant to be integrated into your pre-commit hooks and your pipelines.
+- [Sonatype OSS INDEX](https://ossindex.sonatype.org/) - Scan your projects for open source vulnerabilities, and build security into your development toolchain with native tools and integrations. The scan tools all utilize the OSS Index public REST API.
+- [Deeptracy](https://github.com/BBVA/deeptracy) - The Security Dependency Orchestrator Service
 
 ## Automated PR (Bonus💖)
 
@@ -61,6 +62,9 @@ Curated list of security tools
 
 ## IDE Plugins
 
+Most of the above tools have plugins support. Below are the some of the plugins.
+
+- [Vuln Cost](https://snyk.io/security-scanner-vuln-cost/) - Find security vulnerabilities in open source packages while you code in JavaScript, TypeScript and HTML.
 - [Grype](https://github.com/anchore/grype-vscode) - The Grype extension makes it easy to know when your project is using dependencies that have known security vulnerabilities.
 - [Snyk Security Scanner](https://github.com/snyk/snyk-intellij-plugin) - The Snyk Vulnerability Scanner plugin for IDEs (like IntelliJ, eclipse, vscode) helps you find and fix security vulnerabilities in your projects, all from within your favorite IDE.
 - [Trivy Vulnerability Scanner](https://marketplace.visualstudio.com/items?itemName=AquaSecurityOfficial.trivy-vulnerability-scanner) - Trivy Vulnerability Scanner is a VS Code plugin that helps you find vulnerabilities in your software projects without leaving the comfort of your VS Code window.
@@ -69,6 +73,7 @@ Curated list of security tools
 
 - [OWASP Dependency Track](https://dependencytrack.org/) - Continuous Component Analysis Platform
 - [Nexus lifecycle](https://www.sonatype.com/nexus/lifecycle) - Take full control of your software supply chain with Nexus Lifecycle. Integrate precise and accurate component intelligence directly into the development tools.
+- [WhiteHat Sentinel SCA](https://www.whitehatsec.com/platform/software-composition-analysis/) - Analyzes applications for third parties and open source software to detect illegal, dangerous, or outdated code. Accelerate the time-to-market for your applications by safely and confidently utilizing open source code.
 
 # Static Code Aanalysis
 
@@ -144,6 +149,7 @@ Curated list of security tools
 - [checkov](https://www.checkov.io/) - Static analysis tool for Terraform files (tf>=v0.12), preventing cloud misconfigs at build time.
 - [terraform-compliance](https://terraform-compliance.com/) - A lightweight, compliance- and security focused, BDD test framework against Terraform.
 - [terrascan](https://github.com/cesar-rodriguez/terrascan) - Collection of security and best practice tests for static code analysis of Terraform templates.
+- [tfsec](https://github.com/tfsec/tfsec) - tfsec uses static analysis of your terraform templates to spot potential security issues. Now with terraform v0.12+ support.
 
 ## Multiple Languages
 
@@ -171,10 +177,11 @@ Curated list of security tools
 - [Fossa](https://fossa.com/) 💰 - Get continuous compliance with code SCA featuring audit-grade reporting and comprehensive dependency inventory.
 - [WhiteSource](https://www.whitesourcesoftware.com/) 💰 - Detect and remediate open source security and compliance issues in real-time, without the headache
 - [Nexus auditor](https://www.sonatype.com/nexus/auditor) 💰 - Generate a Software Bill of Materials and Triage License, Security Risk within Third Party Applications and Continuously Monitor Apps for New Vulnerabilities
+- [Licensebat](https://licensebat.com/) 💰 - Licensebat seamlessly integrates with your GitHub build pipeline to make sure your current and future dependencies comply with your license policies.
+- [Black Duck®](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) 💰 - Helps teams manage the security, quality, and license compliance risks that come from the use of open source and third-party code in applications and containers.
 - [FOSSology](https://www.fossology.org/) - a open source license compliance software system and toolkit. As a toolkit you can run license, copyright and export control scans from the command line.
 - [FOSSID](https://fossid.com/) - A Software Composition Analysis tool that scans your code for open source licenses and vulnerabilities, and gives you full transparency and control of your software products and services.
 - [Palamida](https://www.almtoolbox.com/palamida.php) - Palamida is the leader in advanced techniques to identify Open Source and other third party software in use within your development projects.
-- [Black Duck®](https://www.synopsys.com/software-integrity/security-testing/static-analysis-sast.html) 💰 - Helps teams manage the security, quality, and license compliance risks that come from the use of open source and third-party code in applications and containers.
 - [OSS Review Toolkit]
 - [ClearlyDefined](https://clearlydefined.io/) - Lack of clarity around licenses and security vulnerabilities reduces engagement — that means fewer users, fewer contributors and a smaller community.
 
@@ -194,6 +201,7 @@ Curated list of security tools
 
 - [OpenSCAP](https://www.open-scap.org/) - The OpenSCAP ecosystem provides multiple tools to assist administrators and auditors with assessment, measurement, and enforcement of security baselines.
 - [Lynis](https://cisofy.com/lynis/) - Auditing, system hardening, compliance testing
+- [OpenVAS](https://www.greenbone.net/en/) - A full-featured vulnerability scanner. Its capabilities include unauthenticated testing, authenticated testing, various high level and low level Internet and industrial protocols, performance tuning for large-scale scans and a powerful internal programming language to implement any type of vulnerability test.
 
 ## Cloud
 
@@ -202,6 +210,7 @@ Curated list of security tools
 - [Prisma Cloud 2.0](https://www.paloaltonetworks.com/prisma/cloud) 💰 - Cloud Native Security Platform (CNSP) - The Clouds of Today, Secured Against the Threats of Tomorrow
 - [Sysdig Platform](https://sysdig.com/secure-devops-platform/) 💰 - Ship cloud apps faster by embedding security, compliance, and performance into your DevOps workflow
 - [Panther](https://github.com/panther-labs/panther) - Panther is a platform for detecting threats with log data, improving cloud security posture, and conducting investigations.
+- [Fugue Compliance](https://www.fugue.co/cloud-infrastructure-compliance) 💰 - Demonstrate compliance to management and auditors at any time with dashboards, reports, and visualizations.
 
 ## Kubernetes
 
@@ -223,23 +232,28 @@ Curated list of security tools
 - [WhiteSource Renovate](https://github.com/marketplace/renovate) - Automatically update dependencies using convenient Pull Requests
 - [Sonatype DepShield](https://github.com/marketplace/sonatype-depshield) - Identify and remediate vulnerabilities in their open source dependencies.
 
-# GitHub Actions
+## Free for Public and Open Source Repos
+
+- [Depfu](https://depfu.com/) 💰 - [Depfu](https://github.com/marketplace/depfu) is like a colleague who sends you pull requests with all the info you need about a update. You stay in control if and when to merge. Only for JavaScript and Ruby.
+
+# [GitHub Actions](https://github.com/marketplace?category=security&type=actions)
 
 Most of the tools now have github action support - Refer the complete list here - https://github.com/marketplace?category=security&type=actions
 
 # Password Mangers
 
-- Keeper Password Manager & Digital Vault
-- Dashlane
-- 1Password
-- LastPass
+- [Keeper Password Manager & Digital Vault](https://www.keepersecurity.com/) - 💰
+- [Dashlane](https://www.dashlane.com/) - 💰
+- [1Password](https://1password.com/) - 💰
+- [LastPass](https://www.lastpass.com/) - 💰
+- [KeePass](https://keepass.info/) - KeePass is a free open source password manager, which helps you to manage your passwords in a secure way. You can store all your passwords in one database, which is locked with a master key.
 - [Cyph] - (https://www.cyph.com/)
 
 # Standards
 
-- CWE
-- [CAPEC](https://capec.mitre.org/index.html)
-- WASC
+- [CWE](https://cwe.mitre.org/data/index.html) - Common Weakness Enumeration (CWE™) is a list of software and hardware weaknesses types.
+- [CAPEC](https://capec.mitre.org/index.html) - The Common Attack Pattern Enumeration and Classification (CAPEC™) effort provides a publicly available catalog of attack patterns along with a comprehensive schema and classification taxonomy.
+- [WASC](http://projects.webappsec.org/w/page/13246978/Threat%20Classification) - The WASC Threat Classification is a cooperative effort to clarify and organize the threats to the security of a web site. The members of the Web Application Security Consortium have created this project to develop and promote industry standard terminology for describing these issues.
 
 # Free Tranings
 
