@@ -98,6 +98,7 @@ Most of the above tools have plugins support. Below are the some of the plugins.
 ## Go
 
 - [gosec](https://github.com/securego/gosec) - Golang Security Checker inspects source code for security problems by scanning the Go AST.
+- [golangci-lint] (https://github.com/golangci/golangci-lint) - It runs linters in parallel, uses caching, supports yaml config, has integrations with all major IDE and has dozens of linters included.
 
 ## Elixer
 
@@ -147,8 +148,8 @@ Most of the above tools have plugins support. Below are the some of the plugins.
 ### Terraform
 
 - [checkov](https://www.checkov.io/) - Static analysis tool for Terraform files (tf>=v0.12), preventing cloud misconfigs at build time.
+- [terrascan](https://github.com/accurics/terrascan) - Detect compliance and security violations across Infrastructure as Code to mitigate risk before provisioning cloud native infrastructure.
 - [terraform-compliance](https://terraform-compliance.com/) - A lightweight, compliance- and security focused, BDD test framework against Terraform.
-- [terrascan](https://github.com/cesar-rodriguez/terrascan) - Collection of security and best practice tests for static code analysis of Terraform templates.
 - [tfsec](https://github.com/tfsec/tfsec) - tfsec uses static analysis of your terraform templates to spot potential security issues. Now with terraform v0.12+ support.
 
 ## Multiple Languages
@@ -167,6 +168,7 @@ Most of the above tools have plugins support. Below are the some of the plugins.
 - [InsiderSec](https://insidersec.io/) - A open source Static Application Security Testing tool (SAST) written in GoLang for Java (Maven and Android), Kotlin (Android), Swift (iOS), .NET Full Framework, C# and Javascript (Node.js).
 - [Klocwork](https://www.perforce.com/products/klocwork) 💰 - Quality and Security Static analysis for C/C++, Java and C#.
 - [Semmle QL and LGTM]() 💰 - Find security vulnerabilities, variants, and critical code quality issues using queries over source code. Automatic PR code review; free for public GitHub/Bitbucket repo: [LGTM.com](https://lgtm.com/).
+- [Semgrep](https://github.com/returntocorp/semgrep) - Lightweight static analysis for many languages. Find bug variants with patterns that look like source code.
 - [SonarCloud](https://sonarcloud.io/) 💰 - Multi-language cloud-based static code analysis. History, trends, security hot-spots, pull request analysis and more. Free for open source.
 - [WhiteHat Application Security Platform](https://www.whitehatsec.com/platform/static-application-security-testing) 💰 - WhiteHat Scout (for Developers) combined with WhiteHat Sentinel Source (for Operations) supporting WhiteHat Top 40 and OWASP Top 10.
 - [Xanitizer](https://xanitizer.com/) 💰 - Xanitizer finds security vulnerabilities in web applications. It supports Java, Scala, JavaScript and TypeScript.
