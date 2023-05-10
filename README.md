@@ -251,6 +251,9 @@ Most of the tools now have github action support - Refer the complete list here 
 - [KeePass](https://keepass.info/) - KeePass is a free open source password manager, which helps you to manage your passwords in a secure way. You can store all your passwords in one database, which is locked with a master key.
 - [Cyph] - (https://www.cyph.com/)
 
+# Code obfuscation
+- https://www.oreans.com/index.php 💰
+
 # Standards
 
 - [CWE](https://cwe.mitre.org/data/index.html) - Common Weakness Enumeration (CWE™) is a list of software and hardware weaknesses types.
@@ -260,3 +263,5 @@ Most of the tools now have github action support - Refer the complete list here 
 # Free Tranings
 
 - [Cloud Security Alliance (CSA)]
+- http://www.securitytube.net/#
+- https://p.ost2.fyi/ https://www.ost2.fyi/Home.html
