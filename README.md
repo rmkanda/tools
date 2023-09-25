@@ -108,6 +108,7 @@ Most of the above tools have plugins support. Below are the some of the plugins.
 
 - [Parse](https://github.com/psecio/parse) - A Static Security Scanner.
 - [Progpilot](https://github.com/designsecurity/progpilot) - A static analysis tool for security purposes.
+- [CakeFuzzer](https://zigrin.com/tools/cake-fuzzer/) - Ultimate web application security testing tool for CakePHP-based web applications.
 
 ## Python
 
