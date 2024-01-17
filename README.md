@@ -233,6 +233,7 @@ Most of the above tools have plugins support. Below are the some of the plugins.
 - [WhiteSource Bolt](https://github.com/marketplace/whitesource-bolt) - Continuously scans all your repos, detects vulnerabilities in open source components and provides fixes. It supports both private and public repositories. 200 programming languages support.
 - [WhiteSource Renovate](https://github.com/marketplace/renovate) - Automatically update dependencies using convenient Pull Requests
 - [Sonatype DepShield](https://github.com/marketplace/sonatype-depshield) - Identify and remediate vulnerabilities in their open source dependencies.
+- [Pixeebot](https://pixee.ai) - Pixeebot finds security and code quality issues in your code and creates merge-ready pull requests with recommended fixes.
 
 ## Free for Public and Open Source Repos
 
